@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: "Fraunces", serif;
+}
+
+body {
+	font-family: "Inter", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.padding__btn {
+	margin-right: 24px;
+}
+
+.container {
+	padding: 0 155px;
+}
+
+.header {
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__logo {
+	padding-right: 36px;
+}
+
+.header__nav {
+	display: flex;
+	align-items: center;
+}
+
+.header__list {
+	display: flex;
+	gap: 24px;
+}
+
+.header__register {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.header__item {
+	list-style: none;
+}
+
+.btn {
+	padding: 10px 20px;
+	background: #0070A0;
+	color: #fff;
+}
+
+
+/* HERO */
+.hero {
+	padding: 100px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.hero__info-title {
+	font-size: 50px;
+	color: #000;
+	width: 480px;
+	text-align: start;
+}
+.hero__info-text {
+	font-size: 20px;
+	color: #000;
+	width: 350px;
+	font-weight: 400;
+	padding: 24px 0 34px 0;
+}
+.link {
+	color: #0070A0;
+	font-size: 17px;
+	text-decoration: none;
+}
+.our-company {
+	text-align: center;
+}
+.our-company__title {
+	font-size: 24px;
+	color: #1F1F1F;
+	font-weight: 400;
+	padding-bottom: 24px;
+}
+.our-company-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 45px;
+}
+
+.card-header {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.card-info {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.card-body {
+	width: 28%;
+	height: auto;
+	background: #FAEA73;
+	padding: 37px 36px;
+}
+
+.card-body img {
+	width: 55px;
+	height: 55px;
+}
+
+.card-body h4 {
+	font-size: 25px;
+	color: #1F1F1F;
+	padding: 13px 0;
+}
+
+.card-body p {
+	font-size: 15px;
+	color: #1f1f1f;
+}
+
+.card-body:nth-child(2) {
+	background: #CCEFF6;
+}
+
+.card-body:nth-child(3) {
+	background: #F7CEDC;
+}
+
+.wrapper-gray {
+	background: #F7F9FA;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.relaxing {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 60px 0 60px 0;
+
+}
+
+.relaxing__title {
+	width: 65%;
+	font-size: 42px;
+	color: #1F1F1F;
+}
+
+.relaxing__item {
+	list-style: none;
+	border-top: 1px solid black;
+	margin-bottom: 2px;
+	position: relative;
+	padding: 15px 0 15px 0;
+}
+
+.relaxing__item:nth-child(4) {
+	border-bottom: 1px solid black;
+}
+
+.relaxing__item-d {
+	display: flex;
+	align-items: center;
+}
+
+.arrow_bottom {
+	position: absolute;
+	right: 0;
+}
+
+.relaxing__item-d h4 {
+	font-size: 21px;
+	font-weight: 400;
+	color: #1F1F1F;
+}
+
+.relaxing__item p {
+	padding-left: 32px;
+	font-size: 16px;
+	color: #1F1F1F;
+	width: 363px;
+	padding-top: 18px;
+}
+
+
+/* ABOUT */
+.about {
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0;
+}
+
+.about-card {
+	display: flex;
+	justify-content: end;
+	gap: 32px;
+}
+
+.about-card__body {
+	width: 200px;
+	padding: 5px 0;
+}
+
+.wrapper-blue {
+	background: #0070A0;
+	padding: 90px 0;
+}
+
+.track {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 187px;
+}
+
+.track-info h2 {
+	font-size: 42px;
+	width: 400px;
+}
+
+.track-info p {
+	font-size: 18px;
+	font-weight: 400;
+	width: 480px;
+	padding: 21px 0 16px 0;
+}
+
+.track-info p,
+.track-info h2 {
+	color: white;
+}
+
+.track-info__list {
+	list-style: none;
+	padding: 0;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.track-info .btn {
+	background: #0b3d52;
+	padding: 15px 28px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.track-info__item {
+	position: relative;
+	padding-left: 24px;
+	font-size: 16px;
+	color: #1F1F1F;
+	color: white;
+}
+
+.track-info__item::before {
+	content: "✔";
+	font-size: 16px;
+	color: #f7bfc8;
+	position: absolute;
+	left: 0;
+}
+
+/* TASKS */
+.tasks {
+	padding: 100px 0;
+}
+
+.tasks h1 {
+	font-size: 42px;
+	width: 456px;
+	color: #1F1F1F;
+}
+
+.tasks p {
+	width: 650px;
+	color: #1F1F1F;
+	font-size: 18px;
+	margin-top: 16px;
+	margin-bottom: 65px;
+}
+
+.tasks-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.tasks-card__body {
+	width: 234px;
+}
+
+.tasks-card__body h2 {
+	color: #1F1F1F;
+	font-weight: 400;
+	padding: 5px 0;
+}
+
+.tasks-card__body p {
+	width: 221px;
+} 
+
+.title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+} 
+
+.smarter {
+	display: flex;
+	justify-content: space-between;
+	gap: 32px;
+	margin-top: 60px;
+}
+
+.smarter__card {
+	background: white;
+}
+
+.smarter__card img {
+	width: 100%;
+}
+
+.smarter__card-body {
+	padding: 27px 24px;
+}
+
+.smarter__card-body a {
+	padding: 4px 12px;
+	background: #E6F7FF;
+	color: #2C90C9;
+}
+
+.smarter__card-body h3 {
+	font-size: 25px;
+	color: #1F1F1F;
+	font-weight: 400;
+	padding: 12px 0;
+}
+
+.smarter__card-body p {
+	font-size: 14px;
+	color: #1F1F1F;
+	padding: 12px 0;
+}
+
+.start {
+	margin-top: 100px;
+	padding: 63px 0 48px 64px;
+	background: #E6F7FF;
+}
+
+.start-paragraph {
+	width: 480px;
+	padding: 30px 0;
+}
+
+.description {
+	display: inline-block;
+	padding-top: 30px;
+	color: #1f1f1f70;
+	padding-right: 25px;
+}
+
+/* footer */
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0;
+}
+
+.footer-nav {
+	display: flex;
+	gap: 50px;
+}
+
+.footer__item {
+	color: #626A72;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.footer__item:nth-child(2) {
+	margin-top: 16px;
+}
+
+.footer-enter-mail {
+	width: 216px;
+}
+
+.footer-enter-mail p {
+	padding: 14px 0;
+}
+
+.enter-email {
+	border-bottom: 1px solid #C2CDD8;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+}
+
+.footer-enter-mail p {
+	color: #626A72;
+}
+
+.enter-email:after {
+	content: "";
+	background-image: url(../img/arrow_right.svg);
+	background-size: contain;
+	width: 16px;
+	height: 16px;
+	right: 0;
+	bottom: 0;
+}
+
+.footer_soc {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 50px 0;
+}
